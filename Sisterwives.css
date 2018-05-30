@@ -1,0 +1,641 @@
+  /*Sister Wives*/
+h1 {
+   font-family: 'YoungSerifRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+   text-align: center;
+}
+
+body {
+   font-family: 'YoungSerifRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+   text-align: center;
+}
+
+
+#chalkboard {
+  
+  background-image: url("images/blackboard.jpg");
+  background-size: 2000px;
+  width: 2000px;
+  height: 1200px;
+  border: 0.2em solid black;
+}
+
+#greenbulb {
+  
+  background-image: url("images/greenbulb.jpg");
+  background-size: 2000px;
+  width: 2000px;
+  height: 1200px;
+  border: 0.2em solid black;
+  
+}
+
+#myForm {
+  
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#myForm2 {
+  
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#advice {
+  font-size: 1.3em;
+}
+
+   
+ #panic-container1 {
+  
+  background: #ffdd99;
+  border: 0.2em solid black;
+}
+
+#panic-container2 {
+  
+  background: #f9fefa;
+  border: 0.2em solid black;
+}
+
+#panic-container3 {
+  
+  background: #E4A26E;
+  border: 0.2em solid black;
+}
+
+#panic-container4 {
+  
+  background: #e7c4ae;
+  border: 0.2em solid black;
+}
+
+#panic-container5 {
+  
+  background: #EDEDEB;
+  border: 0.2em solid black;
+}
+
+#panic-container6 {
+  
+  background: #f09642;
+  border: 0.2em solid black;
+}
+
+#panic-container7 {
+  
+  background: #869B60;
+  border: 0.2em solid black;
+}
+
+#panic-container8 {
+  
+  background: #9F7461;
+  border: 0.2em solid black;
+}
+
+#head1 {
+   background: #934634; 
+   margin: 0px;
+   border: 0.1em solid black;
+   font-weight: bold;
+   font-size: 3em;
+}
+
+#head2 {
+   background: #495771;
+   margin: 0px;
+   border: 0.1em solid black;
+   font-weight: bold;
+   font-size: 3em;
+}
+
+#head3 {
+   background: #8F4D3C; 
+   margin: 0px;
+   border: 0.1em solid black;
+   font-weight: bold;
+   font-size: 3em;
+}
+
+#head4 {
+   background: #67703b;
+   margin: 0px;
+   border: 0.1em solid black;
+   font-weight: bold;
+   font-size: 3em;
+}
+
+#head5 {
+   background: #6E6D72;
+   margin: 0px;
+   border: 0.1em solid black;
+   font-weight: bold;
+   font-size: 3em;
+}
+
+#head6 {
+   background: #8b7a5c;
+   margin: 0px;
+   border: 0.1em solid black;
+   font-weight: bold;
+   font-size: 3em;
+}
+
+#head7 {
+  background: #776C4E;
+  margin: 0px;
+  border: 0.1em solid black;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#head8 {
+  background: #686C5E;
+  margin: 0px;
+  border: 0.1em solid black;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+
+
+li {
+  text-align: left;
+  font-size: 1em;
+}
+
+ul {
+  text-align: left;
+}
+
+ footer {
+  width: 100%;
+ }
+
+#placeLabel {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+#haddress {
+  text-align: left;
+  font-size: 8.5em;
+}
+ 
+#mainnav1 {
+	height: 3em;
+	background: #ffdd99;
+	border: 0.2em solid black;
+  text-align: center;
+}
+
+#skipnav {
+	margin-top: 0px;
+	position: relative;
+	float: right;
+}
+
+#mainnav2 {
+  height: 3em;
+  background: #f9fefa;
+  border: 0.2em solid black;
+  text-align: center;
+}
+
+#mainnav3 {
+  height: 3em;
+  background: #E4A26E;
+  border: 0.2em solid black;
+  text-align: center;
+}
+
+#mainnav4 {
+  height: 3em;
+  background: #e7c4ae;
+  border: 0.2em solid black;
+  text-align: center;
+}
+
+#mainnav5 {
+  height: 3em;
+  background: #EDEDEB;
+  border: 0.2em solid black;
+  text-align: center;
+}
+
+#mainnav6 {
+  height: 3em;
+  background: #f09642;
+  border: 0.2em solid black;
+  text-align: center;
+}
+
+#mainnav7 {
+  height: 3em;
+  background: #869B60;
+  border: 0.2em solid black;
+  text-align: center;
+}
+
+#mainnav8 {
+  height: 3em;
+  background: #9F7461;
+  border: 0.2em solid black;
+  text-align: center;
+}
+
+img {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0;
+}
+
+#bridge {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;
+}
+
+#computer {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;
+}
+
+#road {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;
+}
+
+#street {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;
+}
+
+#pen {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;
+}
+
+#door {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;
+}
+
+ #hopscotch {
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;
+}
+
+ #greenbulb {
+  
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;  
+  max-width: 100%;
+  
+}
+
+  #blackboard  {
+  
+  float: right;
+  display: block;
+  margin: 0 0 0em 0em;
+  padding: 0;
+  border: 0.3em solid black;  
+  max-width: 100%;
+  
+    }
+
+#bold  {
+  
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+#steps #notsobold {
+  
+  color: #008000;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#steps #bold {
+  
+  color: #008000;
+  
+}
+
+#housing #notsobold {
+  
+  color: #008000;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+ a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#mainnav1 a:hover {
+  color: white;
+}
+
+#mainnav1 a:active {
+  color: green;
+}
+
+#mainnav2 a:link {
+  color: black;
+}
+
+#mainnav2 a:visited {
+  color: black;
+}
+
+#mainnav2 a:hover {
+  color: green;
+}
+
+#mainnav2 a:active {
+  color: black;
+}
+
+#mainnav3 a:link {
+  color: black;
+}
+
+#mainnav3 a:visited {
+  color: black;
+}
+
+#mainnav3 a:hover {
+  color: white;
+}
+
+#mainnav3 a:active {
+  color: black;
+}
+
+#mainnav4 a:link {
+  color: black;
+}
+
+#mainnav4 a:visited {
+  color: black;
+}
+
+#mainnav4 a:hover {
+  color: white;
+}
+
+#mainnav4 a:active {
+  color: black;
+}
+
+#mainnav5 a:link {
+  color: black;
+}
+
+#mainnav5 a:visited {
+  color: black;
+}
+
+#mainnav5 a:hover {
+  color: green;
+}
+
+#mainnav5 a:active {
+  color: black;
+}
+
+#mainnav6 a:link {
+  color: black;
+}
+
+#mainnav6 a:visited {
+  color: black;
+}
+
+#mainnav6 a:hover {
+  color: white;
+}
+
+#mainnav6 a:active {
+  color: black;
+}
+
+body {
+  background: tan;
+}
+
+ article {
+  position: absolute;
+  float: none;
+  margin: 0 0 0 0;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+section {
+  
+  font-size: 2em;
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0 0 0 0;
+  width: 30%;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 1.75em;
+  padding-left: 1em;
+}
+
+section h2 {
+   font-weight: bold;
+   font-size: 1.4em;
+   padding: 10px;
+}
+
+
+#home {
+  font-size: 1.1em;
+}
+
+#employ {
+  font-size: 1.2em;
+}
+
+#employ #bold {
+  color: #6491BB; 
+}
+
+ #edu a:link {
+  font-size: .9em;
+}
+
+#edu #notsobold {
+  color: #814332;
+  font-size: 1.3em;
+}
+
+
+aside #notsobold a:link {
+  
+  color: #814332;
+  font-size: 1.5em;
+}
+
+#housing {
+  font-size: 1.1em;
+}
+
+#edu a:link {
+  font-size: .9em;
+}
+#mini {
+  font-size: .7em;
+}
+
+li #bolder {
+  font-size: 1.5;
+  color: red;
+}
+
+#steps {
+  max-width: 500px;
+  margin: auto;
+  font-size: 1.1em;
+  border-bottom: ;
+}
+
+ #success {
+  
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0 0 0 0;
+  width: 30%;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 1.75em;
+  padding-left: 1em;
+}
+
+#success #bold {
+  color: #e67300;
+  }
+
+/* form */
+
+input {
+  
+  border: 2px solid black;
+  border-radius: 4px;
+    
+}
+
+#div2 {
+  
+  font-size: 1.5em;
+  color: black;
+  background: #934634;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-top: 700px;
+}
+
+#div3 {
+  
+  position: relative;
+  color: black;
+  font-size: 1.5em;
+  background: #934634;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-top: 700px;
+  
+}
+
+fieldset #account {
+  
+  font-size: 2em;
+}
+
+ 
+ 
+fieldset #login {
+  
+
+  border: 2px solid black;
+  margin: 0 0 0 0;
+}
+
+fieldset {
+
+  border: 2px solid black;
+  margin: 0 0 0 0
+}
+
+ #notmember {
+  
+  background: #ffdd99;
+  border: 2px solid black;
+}
+
+ #member {
+  
+  border: 2px solid black;
+  text-align: center;
+  
+}
+
+#submitsection {
+  background: #ffdd99;
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+#submitBtn {
+   float: none;
+}
+
+#bottom {
+  text-align: left;
+}
+
